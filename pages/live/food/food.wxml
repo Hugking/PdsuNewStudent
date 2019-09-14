@@ -1,0 +1,27 @@
+<!--pages/live/food/food.wxml-->
+<import src="pages/tem/food_tem/food_tem.wxml" />
+<view class="main">
+
+  <view id="food_list">
+
+    <view>
+      <block wx:for="{{foods}}" wx:for-item="item" wx:for-index="idx">
+        <view catchtap="onTapToDetail" data-food-id="{{item.foodId}}">
+          <template is="food-tem" data="{{...item}}" />
+        </view>
+      </block>
+    </view>
+
+    <view hidden="{{!ismore}}" id="view_more">
+      <image id="img_more" src="../../imgs/loading.gif"></image>
+    </view>
+
+    <!--gourmet_list-->
+  </view>
+
+  <include src="../common/loading.wxml" />
+
+
+<view style="height:2.8em;" />
+
+</view>

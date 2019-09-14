@@ -1,0 +1,23 @@
+{
+  "pages":[
+    "pages/live/food/add_food/add_food",
+    "pages/map/map",
+    "pages/index/index",
+    "pages/live/food/food",
+    "pages/live/food/food_detail/food_detail",
+    "pages/live/method/method",
+    "pages/live/method/add_method/add_method",
+    "pages/live/method/method_detail/method_detail",
+    "pages/user/user",
+    "pages/user/login/login",
+    "pages/tem/food_tem/food_tem",
+    "pages/tem/method_tem/method_tem"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "debug":true
+}
